@@ -1,0 +1,283 @@
+.nav-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 8rem;
+    padding-right: 8rem ;
+    height:4rem;
+}
+.circle{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    
+}
+.nav-top,ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.right-element{
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+#name-box{
+    margin-left: 1rem;
+    margin-top:0.4rem;
+    
+} 
+
+ body {
+    display: block;
+    margin: 0px;
+} 
+
+.Frame{
+
+    position:relative;
+    display: inline-block;
+}
+.img{position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+    margin-right: -12px;
+
+
+}
+
+ /*h1.logo {
+    display: inline-block;
+    position: absolute;
+    height: 25px;
+    width: 92px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+    color: #000;
+    top: 21px;
+} */
+ /* .site-nav{
+    padding-left: 110px;
+    padding-right: 110px;
+   
+ } */
+ #vert-line{
+    border-left: 2px solid black;
+    height: 46px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+ }
+ .nav2-rightelement{
+    display: flex;
+    flex-direction: row;
+ }
+ .nav2-rightelement h2{
+    display: inline-block;
+ }
+ .search{
+    max-width: 20px;
+    padding-top: 10px;
+
+ }
+ .filters-section input{
+    border-radius: 1rem;
+    background-color: #F0F1F1;
+ }
+ #createdby1{
+    margin-left: 1rem;
+ }
+ #createdby{
+    border-radius: 1rem;
+    background-color:#F0F1F1;
+ }
+.filters-section {
+    margin-top: auto; 
+    height:2.5rem;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #ccc; 
+    padding-left: 8rem;
+    padding-right: 8rem ;
+  }
+  
+  .filters-section > .nav2-rightelement {
+    width: 100%; 
+  }
+  
+  .filters-section label {
+    margin-right: 10px; 
+  }
+  #Layer_1{
+    width: 1rem;
+    position: absolute;
+    right: 9rem;
+    top: 3.8rem;
+    cursor: pointer;
+  }
+.blog-post{
+    background-color: #F5F8FF;
+    padding: 2rem;
+    padding-left: 7rem;
+    margin-top: 0.2rem;
+}
+.blog-post h1{
+    padding-left: 8rem;
+    font-size: 2rem;
+}
+.card {
+    width: 350px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 15rem;
+    border-radius: 8px;
+    /* object-fit: contain;
+    aspect-ratio: 3/2; */
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#imgsc{
+    height: fit-content;
+}
+.info-row img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.info-row .name {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.info-row .icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.info-row .icons img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
+.info-row .icons span {
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #fff;
+    padding: 2rem 8rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap:7rem;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 1rem;
+    
+    
+}
+.footer-column a{
+    text-decoration: none;
+}
+.footer-column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.blog-title {
+    color: red;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column p {
+    margin: 0.5rem 0;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 30px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    /* mix-blend-mode: color-burn; */
+}
+#cat{
+    display: flex;
+    flex-direction: column;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.2rem;
+    font-size: 0.9rem;
+}
